@@ -1,14 +1,16 @@
 ---
 templateKey: blog-archive
-published: true
-schemaType: WebPage
 pageSlug: /blog
 pageTitle: Blog
-metaDescription: '{{client_name}}’s blog'
-header: '{{client_name}}’s Blog'
-subheader: ~
+metaDescription: A financial services professional based in Cohasset,
+  Massachusetts, John Steven Mullaly currently serves as a managing director
+  with LifeSci Advisors, a global investor relations services provider.
+published: true
+schemaType: WebPage
+header: John Steven Mullaly’s Blog
+subheader: null
 featuredImage:
-  src: ~
-  alt: ~
-  caption: ~
+  ? src
+  ? alt
+  ? caption
 ---
